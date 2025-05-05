@@ -36,7 +36,7 @@ return [
     ],
 
     'external_api' => [
-        'base_url' => env('EXTERNAL_API_BASE_URL', 'https://api.open-meteo.com'),
+        'base_url' => env('EXTERNAL_API_BASE_URL', 'https://api.open-meteo.com/v1/'),
     ],
 
 ];
